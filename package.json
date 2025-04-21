@@ -6,7 +6,8 @@
     "start": "sirv ./src public --cors --single --no-clear --port 8000",
     "start-swa":"swa start",
     "swa-build": "swa build",
-    "swa-deploy": "swa deploy --env production --deployment-token 90974aac91da4b8af48d504c018f26c32d36c4d589c8a14df44ee60d14e21a8406-207d244e-bb82-4282-8671-6fc9df84d3d901e17040fe13b81e"
+    "swa-deploy": "swa deploy --env production --deployment-token 90974aac91da4b8af48d504c018f26c32d36c4d589c8a14df44ee60d14e21a8406-207d244e-bb82-4282-8671-6fc9df84d3d901e17040fe13b81e",
+    "build": "echo 'Nothing to build'"
   },
   "author": "James Brookshire",
   "license": "ISC",
