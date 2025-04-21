@@ -1,7 +1,14 @@
 {
-  "name": "vanilla-basic",
+  "name": "static_site",
   "version": "1.0.0",
-  "scripts": { 
-    "start": "sirv ./src public --cors --single --no-clear --port 8000"
-  }
+  "main": "index.html",
+  "scripts": {
+    "start": "sirv ./src public --cors --single --no-clear --port 8000",
+    "start-swa":"swa start",
+    "build": "swa build",
+    "deploy": "swa deploy --env production --deployment-token 90974aac91da4b8af48d504c018f26c32d36c4d589c8a14df44ee60d14e21a8406-207d244e-bb82-4282-8671-6fc9df84d3d901e17040fe13b81e"
+  },
+  "author": "James Brookshire",
+  "license": "ISC",
+  "description": ""
 }
