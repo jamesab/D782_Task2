@@ -30,9 +30,9 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"                 # Root of your repo (where index.html lives)
+          app_location: "src"                 # Root of your repo (where index.html lives)
           api_location: ""                  # No Azure Functions
-          app_artifact_location: "/"        # No build output — just use the source files
+          app_artifact_location: "src"        # No build output — just use the source files
           app_build_command: ""             # Skip build step
 
   close_pull_request_job:
