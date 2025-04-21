@@ -31,7 +31,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "src"                 # Root of your repo (where index.html lives)
-          api_location: ""                  # No Azure Functions
+          api_location: "api"                  # No Azure Functions
           app_artifact_location: "src"        # No build output — just use the source files
           app_build_command: ""             # Skip build step
 
